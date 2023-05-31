@@ -1,3 +1,4 @@
-<p>
-  JavaScript works!
-</p>
+<div class="container" *ngFor="let js of javascript">
+<h3 class="bg-dark p-2 text-white">{{js.title}}</h3>
+<div [innerHTML]="js.description">
+</div>
