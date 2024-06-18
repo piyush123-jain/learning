@@ -16,6 +16,10 @@ const routes: Routes = [
   component:JavaScriptComponent
   },
   {
+  path:"tech_ques",
+  component:InterviewQuestionsComponent
+  },
+  {
   path:"angular",
   component:AngularComponent
   },

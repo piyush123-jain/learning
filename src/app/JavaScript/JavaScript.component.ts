@@ -21,7 +21,13 @@ export class JavaScriptComponent implements OnInit {
 this.javascript  = [
 {
   title:"Object.freeze() vs const",
-  description:""
+  description:`
+  Const and Object.freeze is two different entitys
+  const applies to binding variables. 
+  <br/><br/>
+  Object.freeze work on values and more specially 
+
+  `
 },
 {
   title:"Undefined & Not defined",

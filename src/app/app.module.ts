@@ -7,11 +7,13 @@ import { JavaScriptComponent } from './JavaScript/JavaScript.component';
 import { HomeComponent } from './home/home.component';
 import { SafeHtmlPipe } from './pipe/sentize.pipe';
 import { AngularComponent } from './Angular/Angular.component';
+import { InterviewQuestionsComponent } from './Interview/interview-questions.component';
 
 @NgModule({
   declarations: [	
     AppComponent,
       JavaScriptComponent,
+      InterviewQuestionsComponent,
       HomeComponent,SafeHtmlPipe,
       AngularComponent
    ],
