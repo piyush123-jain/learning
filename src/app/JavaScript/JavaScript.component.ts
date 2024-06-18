@@ -51,13 +51,16 @@ this.javascript  = [
     console.log(a); // 10<br/>
     console.log(b); // ReferenceError : b is not defined<br/>
     </p>
+    </p>
+    <img class="img-thumbnail" src="./assets/hosting-1.png"/><br/>
 
-    </p>`
+    
+    `
   },
   {
     title:"How Javascripr Compiler work",
     description:`
-    <img class="img-thumbnail" src="../assets/js-compiler.png"/>
+    <img class="img-thumbnail" src="./assets/js-compiler.png"/>
     JS compilter take an file an parse the code and create lexical analysis of  the code and create <b>AST</b> abstract syntax tree.
     Check <a href="https://google.github.io/blockly-samples/examples/interpreter-demo/step-execution.html" target="_blank">AST</a> Tree here
     <br/><br/>
@@ -101,7 +104,7 @@ this.javascript  = [
   },
   { title: "Lexical Scope / Closure:-",
     description:`
-    <img class="img-thumbnail" src="../assets/lexical_scope.png"/><br/>
+    <img class="img-thumbnail" src="./assets/lexical_scope.png"/><br/>
 
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures" target="_blank">Clousure</a><br/>
     <a href="https://www.educative.io/answers/lexical-scope-in-javascript" target="_blank">Lexical Scope</a><br/>
